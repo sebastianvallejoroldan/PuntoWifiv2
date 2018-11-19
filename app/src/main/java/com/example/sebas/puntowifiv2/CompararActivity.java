@@ -10,4 +10,9 @@ public class CompararActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comparar);
     }
+
+    public void comparar()
+    {
+
+    }
 }

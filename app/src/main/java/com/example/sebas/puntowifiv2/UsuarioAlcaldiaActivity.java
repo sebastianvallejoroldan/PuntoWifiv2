@@ -10,4 +10,9 @@ public class UsuarioAlcaldiaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_usuario_alcaldia);
     }
+
+    public void usuarioAlcaldiaActivity()
+    {
+
+    }
 }
