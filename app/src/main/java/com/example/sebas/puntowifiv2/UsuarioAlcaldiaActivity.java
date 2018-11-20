@@ -20,14 +20,14 @@ public class UsuarioAlcaldiaActivity extends Activity {
 
     void consultarComparar (View v) {
 
-        Intent intencion = new Intent(this , CompararActivity.class);
+        Intent intencion = new Intent(this , ConsultarCompararActivity.class);
 
         startActivity(intencion);
     }
 
     void consultarEstimar(View v) {
 
-        Intent intencion = new Intent(this , EstimarActivity.class);
+        Intent intencion = new Intent(this , ConsultarEstimarActivity.class);
 
         startActivity(intencion);
     }
