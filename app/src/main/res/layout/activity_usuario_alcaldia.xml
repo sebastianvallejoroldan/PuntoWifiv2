@@ -13,9 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="151dp"
-        android:layout_marginLeft="151dp"
-        android:layout_marginBottom="254dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginBottom="249dp"
         android:onClick="consultarComparar"
         android:text="Consultar" />
 
@@ -26,9 +26,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="139dp"
-        android:layout_marginRight="139dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="66dp"
         android:onClick="consultarEstimar"
         android:text="Consultar" />
 
@@ -41,7 +41,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="13dp"
         android:layout_marginLeft="13dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="126dp"
         android:text="Comparar la cantidad de la población de un barrio con los puntos en el mismo:"
         android:textSize="20dp" />
 
@@ -51,8 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="326dp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="17dp"
         android:text="Estimar los próximos puntos de WiFi en un barrio:"
         android:textSize="20dp" />
 
@@ -61,8 +61,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="34dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
         android:text="Usuario Alcaldía"
         android:textSize="28dp" />
 

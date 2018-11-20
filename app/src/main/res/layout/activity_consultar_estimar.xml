@@ -70,4 +70,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:onClick="consultar"
+        android:text="colsultar" />
 </RelativeLayout>

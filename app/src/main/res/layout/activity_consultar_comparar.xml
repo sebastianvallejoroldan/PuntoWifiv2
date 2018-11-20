@@ -42,7 +42,7 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etComuna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -56,14 +56,24 @@
         android:text="Name" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etAno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText"
+        android:layout_alignStart="@+id/etComuna"
         android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="166dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:onClick="consultar"
+        android:text="Consultar" />
 </RelativeLayout>

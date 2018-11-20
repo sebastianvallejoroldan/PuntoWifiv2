@@ -40,7 +40,9 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".ConsultarCompararActivity" />
-        <activity android:name=".ConsultarEstimarActivity"></activity>
+        <activity android:name=".ConsultarEstimarActivity" />
+        <activity android:name=".CompararActivity" />
+        <activity android:name=".EstimarActivity"></activity>
     </application>
 
 </manifest>
