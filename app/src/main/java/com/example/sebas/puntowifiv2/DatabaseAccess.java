@@ -31,4 +31,27 @@ public class DatabaseAccess {
 
     }
 
+    public void close(){
+
+        if (db!=null) {
+
+            this.db.close();
+        }
+
+    }
+
+    public String getAdress(String name){
+        c=db.rawQuery("select select Address from Table1 where Name = '"+name+"'", new String[]{});
+
+        StringBuffer buffer = new StringBuffer();
+        while (c.moveToNext()){
+
+            String Address = c.getString(0);
+            buffer.append("");
+
+
+        }
+        return buffer.toString();
+    }
+
 }
