@@ -1,7 +1,9 @@
 package com.example.sebas.puntowifiv2;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class UsuarioAlcaldiaActivity extends Activity {
 
@@ -14,5 +16,19 @@ public class UsuarioAlcaldiaActivity extends Activity {
     public void usuarioAlcaldiaActivity()
     {
 
+    }
+
+    void consultarComparar (View v) {
+
+        Intent intencion = new Intent(this , CompararActivity.class);
+
+        startActivity(intencion);
+    }
+
+    void consultarEstimar(View v) {
+
+        Intent intencion = new Intent(this , EstimarActivity.class);
+
+        startActivity(intencion);
     }
 }

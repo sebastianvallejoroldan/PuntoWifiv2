@@ -16,7 +16,8 @@
         android:layout_marginStart="151dp"
         android:layout_marginLeft="151dp"
         android:layout_marginBottom="254dp"
-        android:text="Calcular" />
+        android:onClick="consultarComparar"
+        android:text="Consultar" />
 
     <Button
         android:id="@+id/button2"
@@ -28,7 +29,8 @@
         android:layout_marginEnd="139dp"
         android:layout_marginRight="139dp"
         android:layout_marginBottom="57dp"
-        android:text="Calcular" />
+        android:onClick="consultarEstimar"
+        android:text="Consultar" />
 
     <TextView
         android:id="@+id/textView3"
